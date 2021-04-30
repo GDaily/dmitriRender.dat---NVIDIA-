@@ -1,22 +1,22 @@
 @echo off
-chcp 936
+chcp 950
 
-echo 整體原理：
-echo 1、刪除註冊表中HKEY_CURRENT_USER\SOFTWARE\DmitriRender
-echo 2、刪除%UserProfile%\Documents\desktop.ini檔案中IconIndex=-235下面的部分
-echo 3、打開啟用程式重新試用
-echo 按任意鍵繼續！不需要可以直接關閉。
+echo 俱砰瞶
+echo 1埃爹いHKEY_CURRENT_USER\SOFTWARE\DmitriRender
+echo 2埃%UserProfile%\Documents\desktop.ini郎いIconIndex=-235场だ
+echo 3ゴ秨币ノ祘Α穝刚ノ
+echo ヴ種龄膥尿ぃ惠璶钡闽超
 
 pause
 reg delete HKEY_CURRENT_USER\SOFTWARE\DmitriRender /f
-echo 已執行完步驟1（刪除註冊表）。
+echo 磅︽Ч˙艼1埃爹
 
-echo 正在執行步驟2，手動刪除【IconIndex=-235】下面（不包含IconIndex=-235）的所有內容並儲存，關閉文字編輯視窗后將繼續下一步。
+echo タ磅︽˙艼2も笆埃IconIndex=-235ぃIconIndex=-235┮Τず甧纗闽超ゅ絪胯跌怠盢膥尿˙
 
 start /w notepad "%UserProfile%\Documents\desktop.ini"
 
-echo 正在執行步驟3，選『啟用』點下一步，點測試。
+echo タ磅︽˙艼3匡币ノ翴˙翴代刚
 start /w /d "%AppData%\DmitriRender\x64\" pcnsl.exe
 
-echo 如果以上操作順利，已經重新試用成功，按任意鍵退出。
+echo 狦巨抖竒穝刚ノΘヴ種龄癶
 pause
