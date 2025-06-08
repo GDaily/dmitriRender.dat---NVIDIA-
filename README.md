@@ -1,6 +1,6 @@
 # DmitriRender 簡介與現況說明
 
-## 🇨🇳 中文說明
+## 中文說明
 
 ### 🔹 軟體簡介
 
@@ -22,7 +22,7 @@
 
 ---
 
-## 🇺🇸 English Version
+## English Version
 
 ### 🔹 Software Overview
 
