@@ -4,11 +4,11 @@
 👉 [https://www.gdaily.org/22179/dmitrirender-60fps](https://www.gdaily.org/22179/dmitrirender-60fps)
 
 🙏 如果你覺得這份整理有幫助，歡迎多多支持我們的網站！  
-💻 [GDaily](https://www.gdaily.org)
+
 
 ---
 
-##  中文說明
+## 🇨🇳 中文說明
 
 ### 🔹 軟體簡介
 
@@ -28,6 +28,8 @@
 
 ### 🔹 附加檔案與說明
 
+- `dmitriRender_3.0.0.1.exe`：**3.0 穩定版安裝檔案**
+- `dmitriRender_5.0.0.1_beta1.zip`：**5.0 測試版壓縮安裝檔案**
 - `Watermark` 資料夾：內含用於 **5.0 版本移除浮水印** 的相關檔案，請搭配對應版本使用。
 - `DmitriRender-retime.bat`：此批次檔適用於 **3.0 版本**，可協助進行時間基準或視訊處理設定。
 - **3.0 版本僅適用於以下 GPU 系列**：
@@ -71,8 +73,10 @@ Without ongoing support, compatibility with modern operating systems and players
 
 ### 🔹 Included Files & Notes
 
-- `Watermark` folder: Contains files for **removing watermark in version 5.0**. Use with the corresponding version only.
-- `DmitriRender-retime.bat`: A batch script **designed for version 3.0**, helps with timing or video sync adjustments.
+- `dmitriRender_3.0.0.1.exe`: **Installer for stable version 3.0**
+- `dmitriRender_5.0.0.1_beta1.zip`: **Installer archive for beta version 5.0**
+- `Watermark` folder: Contains files for **removing watermark in version 5.0**.
+- `DmitriRender-retime.bat`: Batch script for **version 3.0**, helps with timing and sync configuration.
 - **Version 3.0 is only compatible with the following GPU series**:
   - AMD RX 5700 series
   - NVIDIA GTX 16XX series
