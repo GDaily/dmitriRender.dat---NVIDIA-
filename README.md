@@ -1,6 +1,14 @@
 # DmitriRender 簡介與現況說明
 
-## 中文說明
+📘 教學參考文章（Tutorial Article）：  
+👉 [https://www.gdaily.org/22179/dmitrirender-60fps](https://www.gdaily.org/22179/dmitrirender-60fps)
+
+🙏 如果你覺得這份整理有幫助，歡迎多多支持我們的網站！  
+💻 [GDaily](https://www.gdaily.org)
+
+---
+
+##  中文說明
 
 ### 🔹 軟體簡介
 
@@ -18,56 +26,68 @@
 
 ---
 
+### 🔹 附加檔案與說明
+
+- `Watermark` 資料夾：內含用於 **5.0 版本移除浮水印** 的相關檔案，請搭配對應版本使用。
+- `DmitriRender-retime.bat`：此批次檔適用於 **3.0 版本**，可協助進行時間基準或視訊處理設定。
+- **3.0 版本僅適用於以下 GPU 系列**：
+  - AMD RX 5700 系列
+  - NVIDIA GTX 16XX 系列
+  - NVIDIA Maxwell、Pascal 架構顯卡
+  - NVIDIA RTX 2000 系列
+  - Universal 驅動支援範圍內的顯卡
+
+---
+
+### ⚠️ 使用須知
+
+我**並非這些補丁或工具的開發者**，僅是整理與歸檔這些資料方便他人參考。
+
+部分補丁採用了 **Jongan DLL 劫持技術**（DLL hijacking），可能會被某些防毒軟體標示為可疑或潛在風險。請依據個人判斷與需求，自行評估是否使用，並確保於可信環境下操作。
+
+---
+
 🕒 最後更新：2025年6月
 
 ---
 
-## English Version
+## 🇺🇸 English Version
 
 ### 🔹 Software Overview
 
-**DmitriRender** is a real-time video frame interpolation filter built on the DirectShow framework, developed by Dmitri Zdorov. Its primary function is to insert intermediate frames to raise the original video framerate (e.g., 24fps or 30fps) to 60fps or higher, delivering smoother playback.
+**DmitriRender** is a real-time video frame interpolation filter built on the DirectShow framework, developed by Dmitri Zdorov. It inserts intermediate frames to raise the original framerate (e.g., 24fps or 30fps) to 60fps or higher, delivering smoother video playback.
 
-Praised for its ease of use and low resource consumption, DmitriRender was widely used by home theater users and high frame rate video fans. It is compatible with many DirectShow-based video players, including MPC-HC and PotPlayer.
+Praised for its ease of use and low system resource usage, DmitriRender was widely used by home theater users and fans of high frame rate (HFR) content. It works with various DirectShow-based video players such as MPC-HC and PotPlayer.
 
 ---
 
 ### 🔹 Development Status
 
-As of now, **DmitriRender is no longer under development**, and the **official website is no longer accessible**. The final released version was not open-sourced and has not been maintained by the original developer or any community.
+As of now, **DmitriRender is no longer in development**, and the **official website is no longer accessible**. The final version was not open-source and there is no known active community maintaining it.
 
-Without ongoing support, compatibility with newer operating systems and modern media players may degrade over time. Users should be aware of potential issues related to stability or compatibility when using DmitriRender.
+Without ongoing support, compatibility with modern operating systems and players may deteriorate. Users should be aware of potential limitations and stability issues.
+
+---
+
+### 🔹 Included Files & Notes
+
+- `Watermark` folder: Contains files for **removing watermark in version 5.0**. Use with the corresponding version only.
+- `DmitriRender-retime.bat`: A batch script **designed for version 3.0**, helps with timing or video sync adjustments.
+- **Version 3.0 is only compatible with the following GPU series**:
+  - AMD RX 5700 series
+  - NVIDIA GTX 16XX series
+  - NVIDIA Maxwell & Pascal GPUs
+  - NVIDIA RTX 2000 series
+  - GPUs supported by the Universal driver range
+
+---
+
+### ⚠️ Disclaimer
+
+I am **not the developer** of these patches or tools — I am only an **archivist and organizer**, sharing these for informational purposes.
+
+Some patches use **Jongan DLL hijacking techniques**, which may trigger antivirus alerts or security warnings. Please evaluate usage based on your own risk tolerance and ensure safe practices in a controlled environment.
 
 ---
 
 🕒 Last Updated: June 2025
-
-
-
-
-
-
-
-
-
-# DmitriRender---NVIDIA-
-
-https://www.gdaily.org/22179/dmitrirender-60fps
-
-綠屏補丁路徑↓
-
-```  %USERPROFILE%\AppData\Roaming\DmitriRender\ ``` 
-
-
-<hr>
-
-folder 
-
-### 5.0 version  
-
-Watermark
-
-
-### 3.0 version 
-
-AMD RX 5700、GTX 16XX、NVIDIA Maxwell Pascal GPU、RTX 2000、Universal、 DmitriRender-retime.bat 
